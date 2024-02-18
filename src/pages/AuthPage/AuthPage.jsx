@@ -1,10 +1,10 @@
 import { Container,Flex,Image,Box, VStack } from '@chakra-ui/react'
 import React from 'react'
-import { AuthForm } from '../Components/AuthForm/AuthForm'
+import { AuthForm } from '../../Components/AuthForm/AuthForm'
 
 const AuthPage = () => {
   return (
-    <Flex minH={'100vh'} justfityContent={"center"} alignItems={"center"} px={4}>
+    <Flex minH={'100vh'} justifyContent={"center"} alignItems={"center"} px={4}>
         <Container maxW={"container.md"} padding={0} >
           <Flex justifyContent={"center"} alignItems={"center"} gap={"10"}>
              {/*Left hand-side */}
