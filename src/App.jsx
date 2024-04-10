@@ -10,7 +10,7 @@ import { auth } from "./firebase/firebase"
 function App() {
   const [authUser] = useAuthState(auth);
   return (
-    <PageLayout>
+    
     <PageLayout>
       <Routes>
         <Route path="/" element={authUser ? <HomePage/> : <Navigate to={'/auth'}/>}/>
@@ -18,7 +18,7 @@ function App() {
         <Route path="/:username" element={<ProfilePage/>}/>
       </Routes>
    </PageLayout>
-   </PageLayout>
+  
   )
 }
 
